@@ -216,6 +216,24 @@ a{
 .chip-brown{
     background: #8c5e24;
 }
+
+
+/*contact*/
+.contact{
+    padding: 180px 0px 100px 0px;
+    min-height: 100vh;
+}
+
+.contact-form-container{
+   max-width: 600px; 
+   margin: auto;
+}
+ 
+.contact-form-container  form label{
+
+    display: block;
+
+}
 /* footer*/
 
 footer{
