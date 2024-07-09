@@ -175,6 +175,11 @@ a{
     margin-bottom: 20px;
 }
 
+.underline{
+   padding-bottom: 10px; 
+   border-bottom: 1px solid gray;
+}
+
 /* where*/
 
 .where{
@@ -193,6 +198,23 @@ a{
 .where-text{
   float: right;
   width: 50%;
+}
+
+.chip{
+    width: 35px;
+    border-radius: 100%;
+    background: #333;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.chip-purple{
+    background: purple;
+}
+
+.chip-brown{
+    background: #8c5e24;
 }
 /* footer*/
 
