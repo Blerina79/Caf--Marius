@@ -230,9 +230,21 @@ a{
 }
  
 .contact-form-container  form label{
+      display: block;
+      font-weight: 700;
+}
 
+.contact-form-container form input, 
+textarea {
     display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
 
+.contact-form-container form textarea {
+    min-height: 80px;
 }
 /* footer*/
 
