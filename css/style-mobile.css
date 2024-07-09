@@ -1,0 +1,21 @@
+
+/*header*/
+.header nav h1{
+    float: none;
+    text-align: center;
+}
+
+.header nav ul {
+    float:none;
+
+}
+
+.header nav ul li {
+    float: none;
+}
+
+.header nav ul li a{
+    padding: 10px;
+    text-align: center;
+}
+

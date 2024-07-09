@@ -112,6 +112,7 @@ a{
 }
 
 .vp-content {
+    padding: 20px;
     max-width: 500px;
     padding-top:150px ;
     color: white;
@@ -141,6 +142,7 @@ a{
 .feature{
     float: left;
     width: 50%;
+    padding: 20px;
 }
 
 /* person*/
@@ -227,6 +229,7 @@ a{
 .contact-form-container{
    max-width: 600px; 
    margin: auto;
+   padding: 20px;
 }
  
 .contact-form-container  form label{
@@ -257,4 +260,75 @@ footer{
 
 footer p {
     margin-bottom: 0px;
+}
+
+/* responsive*/
+
+@media (max-width:400px){
+
+    /*header*/
+
+    .header nav h1{
+        float: none;
+        text-align: center;
+    }
+    
+    .header nav ul {
+        float:none;
+    
+    }
+    
+    .header nav ul li {
+        float: none;
+    }
+    
+    .header nav ul li a{
+        padding: 10px;
+        text-align: center;
+    }
+    
+    /*vp*/
+
+    .vp-content{
+       padding-top: 50px; 
+    }
+    
+    .vp-content h1{
+        font-size: 2rem ;
+    }
+
+    /*features*/
+
+    .feature {
+        float: none;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    /*where*/
+
+    .where{
+        padding: 80px 20px 50px 20px;
+    }
+
+    .where-img{
+        float: none;
+        width: 80%;
+        border: 0px; 
+        margin-bottom: 3rem;
+        display: block;
+        margin: auto;
+    }
+
+    .where-text{
+        float: none;
+        width: 100%;
+    }
+
+    /*contact*/
+
+    .contact{
+        padding: 50px 0px 50px 0px;
+        min-height: 100vh;
+    }
 }
